@@ -1,0 +1,34 @@
+{
+    "projectId": "63590f0f0d50b6613f0a",
+    "projectName": "Transcriptions",
+    "functions": [
+        {
+            "$id": "635f9c8687bb8a6ce0c1",
+            "name": "Get Podcast Episodes",
+            "runtime": "python-3.9",
+            "path": "functions/Get Podcast Episodes",
+            "entrypoint": "src/index.py",
+            "ignore": [
+                "__pypackages__"
+            ],
+            "execute": [],
+            "events": [],
+            "schedule": "",
+            "timeout": 15
+        },
+        {
+            "$id": "635ff5ce124350091dc7",
+            "name": "Trascript Podcast",
+            "runtime": "python-3.9",
+            "path": "functions/Trascript Podcast",
+            "entrypoint": "src/index.py",
+            "ignore": [
+                "__pypackages__"
+            ],
+            "execute": [],
+            "events": [],
+            "schedule": "",
+            "timeout": 15
+        }
+    ]
+}
