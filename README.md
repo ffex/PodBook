@@ -32,7 +32,7 @@ This application came into existance as a way to showcase amazing project that c
 5. Create `Internal` API key (give all scopes), and configure `APPWRITE_FUNCTION_API_KEY` and `APPWRITE_FUNCTION_ENDPOINT` on every functions
 6. Configure `DEEPGRAM_SECRET_KEY` with the Deepgram API key in every functions
 7. Assign permissions `any` in every functions
-8. Configure Angular Service: in `src/services/appwrite.service.ts` set `APPWRITE_ENDPOINT` var.
+8. Configure Angular Service: in `src/app/services/appwrite.service.ts` set `APPWRITE_ENDPOINT` var.
 
 ## 🏠 Development
 
