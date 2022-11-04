@@ -20,10 +20,17 @@ This application came into existance as a way to showcase amazing project that c
 ## 🛠️ Setup
 
 1. Setup [Appwrite](https://appwrite.io/) 1.0.3
-2. Create project with ID `Transcriptions`
-3. Use [Appwrite CLI](https://appwrite.io/docs/command-line) and run `appwrite deploy function --all`, all inside `backend` folder
+2. Create project with ID `transcriptions`
+3. Use [Appwrite CLI](https://appwrite.io/docs/command-line), all inside `backend` folder:
+    
+    3.1. (Optional, default: "`http://localhost/v1`") Setup Appwrite Endpoint: `appwrite client --endpoint [YOUR_APPWRITE_ENDPOINT]`
+
+    3.2. Login to the server `appwrite login`, put your email and password.
+
+    3.3. Run `appwrite deploy function --all`.
 4. Create `Internal` API key (give all scopes), and configure `APPWRITE_FUNCTION_API_KEY` and `APPWRITE_FUNCTION_ENDPOINT` on every functions
 5. Configure `DEEPGRAM_SECRET_KEY` with the Deepgram API key in every functions
+6. Configure Angular Service: in `src/services/appwrite.service.ts` set `APPWRITE_ENDPOINT` var.
 
 ## 🏠 Development
 

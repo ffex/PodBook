@@ -9,10 +9,10 @@ export class AppwriteService {
     client: Client = new Client();
     functions: Functions = new Functions(this.client);
 
-    GETINFO_FUNCTION_ID = "635f9c8687bb8a6ce0c1";
-    TRANSCRIPT_FUNCTION_ID = "635ff5ce124350091dc7";
-    APPWRITE_PROJECT_ID = "63590f0f0d50b6613f0a";
-    APPWRITE_ENDPOINT = "http://192.168.1.11/v1";
+    GETINFO_FUNCTION_ID = "getPodcastEpisode";
+    TRANSCRIPT_FUNCTION_ID = "trascriptPodcast";
+    APPWRITE_PROJECT_ID = "transcriptions";
+    APPWRITE_ENDPOINT = "[YOUR_APPWRITE_ENDPOINT]";
 
     setupSDK(): void {
         this.client
